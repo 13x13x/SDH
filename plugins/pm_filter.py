@@ -170,7 +170,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -187,7 +187,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
     try:
@@ -407,7 +407,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -424,7 +424,7 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -572,7 +572,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
     else:
@@ -589,7 +589,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
 
@@ -772,7 +772,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
             InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         
@@ -978,11 +978,11 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         )
     # if ENABLE_SHORTLINK == True:
   #  btn.insert(0, [
-   #     InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", callback_data=f"sendfiles#{key}")
+   #     InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", callback_data=f"sendfiles#{key}")
   #  ])
     # else:
     btn.insert(0, [
-        InlineKeyboardButton("🍿sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
+        InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
         InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
     ])
     try:
