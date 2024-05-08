@@ -161,34 +161,30 @@ async def next_page(bot, query):
         btn.insert(0, 
             [
                 InlineKeyboardButton(f'⚡ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⚓ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
-                InlineKeyboardButton("🔎 sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("⚓ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("sᴇʟᴇᴄᴛ »", callback_data="select"),
-            InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
+            InlineKeyboardButton("🔎 sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("sᴇʟᴇᴄᴛ » ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
     else:
         btn = []
         btn.insert(0, 
             [
                 InlineKeyboardButton(f'⚡ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⚓ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}"),
-                InlineKeyboardButton("🔎 sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}")
+                InlineKeyboardButton("⚓ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("sᴇʟᴇᴄᴛ »", callback_data="select"),
-            InlineKeyboardButton("☀️ ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
+            InlineKeyboardButton("🔎 sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("🍿 sᴛᴀʀᴛ ʙᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
-            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("sᴇʟᴇᴄᴛ » ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{key}")
         ])
     try:
         if settings['max_btn']:
