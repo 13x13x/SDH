@@ -102,12 +102,14 @@ async def start(client, message):
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
         btn = [
-            [
-                InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ❆", url=invite_link.invite_link)
-            ],[
-                InlineKeyboardButton('🤔 Why Iam Join🤔', callback_data='sinfo')
+    [
+        InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 𝟷 ❆", url=f"https://t.me/PIFOTT"),
+        InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 𝟸 ❆", url=invite_link.invite_link)
+    ],
+    [
+        InlineKeyboardButton('🤔 Why Iam Join🤔', callback_data='sinfo')
+    ]
             ]
-        ]
 
         if message.command[1] != "subscribe":
             try:
