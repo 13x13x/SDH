@@ -50,7 +50,7 @@ async def channels(_, message):
     reply_markup = InlineKeyboardMarkup(keyboard)
     
     # Add the URL of the image you want to send
-    photo_url = ""
+    photo_url = "https://imgshare.xyz/img/2/6651a6e179b1dc5cfdbab1ba/20240525_142144.jpg"
     
     await message.reply_photo(
         photo=photo_url,
