@@ -1,11 +1,10 @@
-from pyrogram import Client, filters, enums
-from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import Client, filters
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-@Client.on_message(filters.command("PanindiaFilmZ") & filters.private)
-async def PanindiaFilmZ_command(bot, message):
+@Client.on_message(filters.command("Channels"))
+async def panindia_filmz_command(client, message):
     try:
-        await bot.get_chat_member(cfg.CHID, message.from_user.id)
-        if message.chat.type == enums.ChatType.PRIVATE:
+        if message.chat.type == "private":
             keyboard = [
                 [
                     InlineKeyboardButton("🍁 ᴛᴀᴍɪʟ - ᴋᴀɴɴᴀᴅᴀ 🎖️", url="https://t.me/+mGplIsWLBsNmMzdl")
@@ -28,10 +27,9 @@ async def PanindiaFilmZ_command(bot, message):
             ]
 
             reply_markup = InlineKeyboardMarkup(keyboard)
-            await message.reply(
-                """**🙃 __Welcome To My PanindiaFilmZ Community!! Check Our Channels & Groups List Below!!**__
+            await message.reply_text("""**🙃 __Welcome To My PanindiaFilmZ Community!! Check Our Channels & Groups List Below!!**__
 
-__**Hi.. PanindiaFilmZ Admin, I Can Provide My Channels Invite Links** __
+__**Hi.. PanindiaFilmZ Admin, I Can Provide My Channels Invite links** __
 
 __**🌟 #PANINDIAFILMZ #OURMENIA 3D~EXP🔥 **__
 
@@ -41,24 +39,22 @@ __**🌟 #PANINDIAFILMZ #OURMENIA 3D~EXP🔥 **__
 **__✨ Rare Hidden Adult Movies 2.0 
 @Telugu_Adults_Rare_Hidden_Movies__**
 
-**__✨ PIF DVD Bot :-
+**__✨ PIF Fitter Bot :-
  @PanindiaFilmz_bot__**
 
 **__✨ BoTz Updates :-
  @BoTzUpdates0__**
 
 **__✨ File's Added Updates :- 
- @PIFOficials__**
+ @PIFOficial__**
 
 __**ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇ ɴᴇᴡ ᴍᴏᴠɪᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ | தமிழ் | తెలుగు | हिंदी | മലയാളം | ಕನ್ |**__
 
-__**Target - Reaching ur Self 🎯**__
+__**Target - Reaching your Self 🎯**__
 
-__**For Any Queries - @PIFAdminBot**__
+__**For Any Queries - @PanIndia_Flimz_Admin_bot**__
 
-__**@PanindiaFilmZ 🔥**__""",
-                reply_markup=reply_markup
-            )
-
+__**@PanindiaFilmZ 🔥**__""", reply_markup=reply_markup)
+ 
     except Exception as e:
         print(f"Error: {e}")
