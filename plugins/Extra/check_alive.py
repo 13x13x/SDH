@@ -1,5 +1,6 @@
 import time
 import random
+import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -19,7 +20,7 @@ async def ping(_, message):
 
 @Client.on_message(filters.command("PIFchannels"))
 async def PIFchannels(_, message):
-    # Define your inline keyboard buttons with the image link
+
     keyboard = [
         [
             InlineKeyboardButton("🍁 ʜᴅ ᴛᴇʟᴜɢᴜ ᴍᴏᴠɪᴇs 🎖️", url="https://t.me/+wIa9vb3tRho3N2Q1")
@@ -48,9 +49,6 @@ async def PIFchannels(_, message):
         ]
     ]
 
-    # Set the image link as the url for the InlineKeyboardButton
-    keyboard[0][0].thumb_url = "https://imgshare.xyz/img/2/6651a6e179b1dc5cfdbab1ba/20240525_142144.jpg"
-    
     # Create the reply markup with the modified keyboard
     reply_markup = InlineKeyboardMarkup(keyboard)
     
@@ -61,7 +59,7 @@ async def PIFchannels(_, message):
 __**He'llo .. I Am PanindiaFilmZ Admin, I Can Provide My Channels Invite links** __
 
 **__✨  Deals 24/7 :- 
-@Killer_Loot_Deals __**
+@KillerLootDeals __**
 
 **__✨ Rare Hidden Adult Movies 2.0 
 @Telugu_Adults_Rare_Hidden_Movies__**
