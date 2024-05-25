@@ -63,11 +63,11 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Great_Indian_Shopping_loot_deals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
         ]]
@@ -75,11 +75,11 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Great_Indian_Shopping_loot_deals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
         ]]
@@ -103,7 +103,7 @@ async def start(client, message):
             return
         btn = [
     [
-        InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 𝟷 ❆", url=f"https://t.me/PIFOTT"),
+        InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 𝟷 ❆", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
         InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 𝟸 ❆", url=invite_link.invite_link)
     ],
     [
@@ -130,11 +130,11 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Great_Indian_Shopping_loot_deals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
         ]]
@@ -142,11 +142,11 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Great_Indian_Shopping_loot_deals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
         ]]
@@ -181,11 +181,11 @@ async def start(client, message):
                 buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Great_Indian_Shopping_loot_deals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
         ]]
@@ -193,11 +193,11 @@ async def start(client, message):
                 buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Great_Indian_Shopping_loot_deals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
         ]]
