@@ -54,21 +54,21 @@ async def PIFchannels(_, message):
     
     # Send the message with the inline keyboard
     sent_message = await message.reply_text(
-        text="""**🙃 __Welcome To My PanindiaFilmZ Community!! Cheak Our Channels & Groups List Below!!**__
+        text="""**__🙃 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍʏ ᴘᴀɴɪɴᴅɪᴀғɪʟᴍᴢ ᴄᴏᴍᴍᴜɴɪᴛʏ!! ᴄʜᴇᴀᴋ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs & ɢʀᴏᴜᴘs ʟɪsᴛ ʙᴇʟᴏᴡ!!__**
 
-__**He'llo .. I Am PanindiaFilmZ Admin, I Can Provide My Channels Invite links** __
+**__ʜᴇ'ʟʟᴏ .. ɪ ᴀᴍ ᴘᴀɴɪɴᴅɪᴀғɪʟᴍᴢ ᴀᴅᴍɪɴ, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴍʏ ᴄʜᴀɴɴᴇʟs ɪɴᴠɪᴛᴇ ʟɪɴᴋs__**
 
-**__✨  Deals 24/7 :- 
-@KillerLootDeals __**
+**__✨  ᴅᴇᴀʟs 𝟸𝟺/𝟽 :- 
+@KillerLootDeals __** 
 
-**__✨ Rare Hidden Adult Movies 2.0 
-@Telugu_Adults_Rare_Hidden_Movies__**
+**__✨ ʀᴀʀᴇ ʜɪᴅᴅᴇɴ ᴀᴅᴜʟᴛ ᴍᴏᴠɪᴇs 𝟸.𝟶 
+@Telugu_Adults_Rare_Hidden_Movies __**
 
-__**Target - Reaching ur Self 🎯**__
+**__ᴛᴀʀɢᴇᴛ - ʀᴇᴀᴄʜɪɴɢ ᴜʀ sᴇʟғ 🎯__**
 
-__**For Any Queries - @PanIndia_Flimz_Admin_bot**__
+**__ғᴏʀ ᴀɴʏ ǫᴜᴇʀɪᴇs - @PIFAdminBot __**
 
-__**@PanindiaFilmZ 🔥**__""",
+**__ @PanindiaFilmZ 🔥**__""",
         reply_markup=reply_markup
     )
     
