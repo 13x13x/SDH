@@ -36,11 +36,11 @@ async def channels(_, message):
         ],
         [
             InlineKeyboardButton("☀️ ᴅᴠᴅ - ᴅᴀᴛᴀʙᴀsᴇ 🌚", url="https://t.me/PIFOficials"),
-            InlineKeyboardButton("🌿 ʜᴅ - ᴅᴀᴛᴀʙᴀsᴇ 💧", url="https://t.me/PIFOficials")
+            InlineKeyboardButton("🌿 ʜᴅ - ᴅᴀᴛᴀʙᴀsᴇ 💧", url="https://t.me/PIFOficial")
         ],
         [
             InlineKeyboardButton("🔗 ʙᴏᴛᴢ ᴀʀᴇᴀ ⚙", url="https://t.me/BoTzUpdates0"),
-            InlineKeyboardButton("🥵 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🙈", url="https://Pakkinty_Anty_Bitlu")
+            InlineKeyboardButton("🥵 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🙈", url="Pakkinte_Anty_Bitlu")
         ],
         [
             InlineKeyboardButton("⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧", url="https://t.me/+37-TDCcQqltlOTRl")
@@ -48,13 +48,8 @@ async def channels(_, message):
     ]
 
     reply_markup = InlineKeyboardMarkup(keyboard)
-    
-    # Add the URL of the image you want to send
-    photo_url = "https://imgshare.xyz/img/2/6651a6e179b1dc5cfdbab1ba/20240525_142144.jpg"
-    
-    await message.reply_photo(
-        photo=photo_url,
-        caption="""**🙃 __Welcome To My PanindiaFilmZ Community!! Cheak Our Channels & Groups List Below!!**__
+    await message.reply_text(
+        text="""**🙃 __Welcome To My PanindiaFilmZ Community!! Cheak Our Channels & Groups List Below!!**__
 
 __**He'llo 👋🏻 .. I Am  PanindiaFilmZ Admin, My Channels Invite links 👇🏻 ** __
 
@@ -74,4 +69,4 @@ __**For Any Queries - @PIFAdminBot**__
 
 __**@PanindiaFilmZ 🔥**__""",
         reply_markup=reply_markup
-)
+                  )
