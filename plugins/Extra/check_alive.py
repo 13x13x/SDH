@@ -17,8 +17,9 @@ async def ping(_, message):
     time_taken_s = (end_t - start_t) * 1000
     await rm.edit(f"Pong!\n{time_taken_s:.3f} ms")
 
-@Client.on_message(filters.command("PIFchannels", CMD))
+@Client.on_message(filters.command("PIFchannels"))
 async def PIFchannels(_, message):
+    # Define your inline keyboard buttons with the image link
     keyboard = [
         [
             InlineKeyboardButton("🍁 ʜᴅ ᴛᴇʟᴜɢᴜ ᴍᴏᴠɪᴇs 🎖️", url="https://t.me/+wIa9vb3tRho3N2Q1")
@@ -47,8 +48,14 @@ async def PIFchannels(_, message):
         ]
     ]
 
+    # Set the image link as the url for the InlineKeyboardButton
+    keyboard[0][0].thumb_url = "https://imgshare.xyz/img/2/6651a6e179b1dc5cfdbab1ba/20240525_142144.jpg"
+    
+    # Create the reply markup with the modified keyboard
     reply_markup = InlineKeyboardMarkup(keyboard)
-    await message.reply_text(
+    
+    # Send the message with the inline keyboard
+    sent_message = await message.reply_text(
         text="""**🙃 __Welcome To My PanindiaFilmZ Community!! Cheak Our Channels & Groups List Below!!**__
 
 __**He'llo .. I Am PanindiaFilmZ Admin, I Can Provide My Channels Invite links** __
@@ -66,3 +73,7 @@ __**For Any Queries - @PanIndia_Flimz_Admin_bot**__
 __**@PanindiaFilmZ 🔥**__""",
         reply_markup=reply_markup
     )
+    
+    # Delete the message after 10 seconds
+    await asyncio.sleep(10)
+    await sent_message.delete()
