@@ -17,8 +17,8 @@ async def ping(_, message):
     time_taken_s = (end_t - start_t) * 1000
     await rm.edit(f"Pong!\n{time_taken_s:.3f} ms")
 
-@Client.on_message(filters.command("Channels", CMD))
-async def channels(_, message):
+@Client.on_message(filters.command("PIFChannels", CMD))
+async def PIFChannels(_, message):
     keyboard = [
         [
             InlineKeyboardButton("🍁 ʜᴅ ᴛᴇʟᴜɢᴜ ᴍᴏᴠɪᴇs 🎖️", url="https://t.me/+wIa9vb3tRho3N2Q1")
