@@ -22,8 +22,6 @@ API_ID = int(environ.get('API_ID', '24025974'))
 API_HASH = environ.get('API_HASH', '2abf0406f41a57b540bdefe8b12d114f')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
-# config.py
-CHID = "-1001949152406"
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
 PICS = (environ.get('PICS', 'https://graph.org/file/07b23cfd8c3680e001eb4.jpg')).split() #SAMPLE PIC
