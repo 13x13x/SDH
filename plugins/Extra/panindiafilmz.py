@@ -1,7 +1,7 @@
 from pyrogram import Client, filters, enums
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
-@app.on_message(filters.command("PanindiaFilmZ") & filters.private)
+@Client.on_message(filters.command("PanindiaFilmZ") & filters.private)
 async def PanindiaFilmZ_command(bot, message):
     try:
         await bot.get_chat_member(cfg.CHID, message.from_user.id)
