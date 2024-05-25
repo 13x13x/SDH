@@ -1,33 +1,35 @@
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
-@Client.on_message(filters.command("Channels"))
-async def panindia_filmz_command(client, message):
+CMD = ["/", "."]
+
+Client.on_message(filters.command("PanindiaFilmZ", CMD))
+async def PanindiaFilmZ_command(_, m: Message):
     try:
-        if message.chat.type == "private":
-            keyboard = [
-                [
-                    InlineKeyboardButton("🍁 ᴛᴀᴍɪʟ - ᴋᴀɴɴᴀᴅᴀ 🎖️", url="https://t.me/+mGplIsWLBsNmMzdl")
-                ],
-                [
-                    InlineKeyboardButton("🧞‍♀️ ʜɪɴᴅɪ - ᴍᴀʟᴀʏᴀʟᴀᴍ 🧐", url="https://t.me/+Oc2rrg_Kl0hiN2Jl"),
-                    InlineKeyboardButton("🔔 ᴘᴀɴɪɴᴅɪᴀꜰɪʟᴍᴢ 🤖", url="https://t.me/PanindiaFilmZ")
-                ],
-                [
-                    InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url="https://t.me/Great_Indian_Shopping_loot_deals"),
-                    InlineKeyboardButton("🥵 ʀᴀʀᴇ ʜɪᴅᴅᴇɴ ᴍᴏᴠɪᴇꜱ ♥️", url="https://t.me/PIFRareHiddenMovies")
-                ],
-                [
-                    InlineKeyboardButton("🔗 ʙᴏᴛᴢ ᴀʀᴇᴀ", url="https://t.me/BoTzUpdates0"),
-                    InlineKeyboardButton("⚙ ᴍᴏᴠɪᴇꜱ ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/PIFOficial")
-                ],
-                [
-                    InlineKeyboardButton("⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧", url="https://t.me/+37-TDCcQqltlOTRl")
-                ]
+        keyboard = [
+            [
+                InlineKeyboardButton("🍁 ᴛᴀᴍɪʟ - ᴋᴀɴɴᴀᴅᴀ 🎖️", url="https://t.me/+mGplIsWLBsNmMzdl")
+            ],
+            [
+                InlineKeyboardButton("🧞‍♀️ ʜɪɴᴅɪ - ᴍᴀʟᴀʏᴀʟᴀᴍ 🧐", url="https://t.me/+Oc2rrg_Kl0hiN2Jl"),
+                InlineKeyboardButton("🔔 ᴘᴀɴɪɴᴅɪᴀꜰɪʟᴍᴢ 🤖", url="https://t.me/PanindiaFilmZ")
+            ],
+            [
+                InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url="https://t.me/Great_Indian_Shopping_loot_deals"),
+                InlineKeyboardButton("🥵 ʀᴀʀᴇ ʜɪᴅᴅᴇɴ ᴍᴏᴠɪᴇꜱ ♥️", url="https://t.me/PIFRareHiddenMovies")
+            ],
+            [
+                InlineKeyboardButton("🔗 ʙᴏᴛᴢ ᴀʀᴇᴀ", url="https://t.me/BoTzUpdates0"),
+                InlineKeyboardButton("⚙ ᴍᴏᴠɪᴇꜱ ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/PIFOficial")
+            ],
+            [
+                InlineKeyboardButton("⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧", url="https://t.me/+37-TDCcQqltlOTRl")
             ]
+        ]
 
-            reply_markup = InlineKeyboardMarkup(keyboard)
-            await message.reply_text("""**🙃 __Welcome To My PanindiaFilmZ Community!! Check Our Channels & Groups List Below!!**__
+        reply_markup = InlineKeyboardMarkup(keyboard)
+        await m.reply(
+            """**🙃 __Welcome To My PanindiaFilmZ Community!! Cheak Our Channels & Groups List Below!!**__
 
 __**Hi.. PanindiaFilmZ Admin, I Can Provide My Channels Invite links** __
 
@@ -46,15 +48,17 @@ __**🌟 #PANINDIAFILMZ #OURMENIA 3D~EXP🔥 **__
  @BoTzUpdates0__**
 
 **__✨ File's Added Updates :- 
- @PIFOficial__**
+ @PIFOficials & @PIFOficial __**
 
 __**ᴀʟʟ ʟᴀɴɢᴜᴀɢᴇ ɴᴇᴡ ᴍᴏᴠɪᴇꜱ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ | தமிழ் | తెలుగు | हिंदी | മലയാളം | ಕನ್ |**__
 
-__**Target - Reaching your Self 🎯**__
+__**Target - Reaching ur Self 🎯**__
 
 __**For Any Queries - @PanIndia_Flimz_Admin_bot**__
 
-__**@PanindiaFilmZ 🔥**__""", reply_markup=reply_markup)
+__**@PanindiaFilmZ 🔥**__""",
+            reply_markup=reply_markup
+        )
  
     except Exception as e:
         print(f"Error: {e}")
