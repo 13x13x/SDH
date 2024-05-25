@@ -2,7 +2,7 @@ import time
 import random
 import asyncio
 from pyrogram import Client, filters
-from pyrogram.types import Message, import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 CMD = ["/", "."]
 
