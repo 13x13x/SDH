@@ -34,16 +34,16 @@ BATCH_FILES = {}
 
 @Client.on_message(filters.command("start") & filters.incoming)
 async def start(client, message):
-    await message.react(emoji="🔥")
+    await message.react(emoji="⚡")
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficial"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🛒 ᴅᴇᴀʟꜱ 🦾", url=f"https://t.me/Great_Indian_Shopping_loot_deals"),
-            InlineKeyboardButton("⚙ ™ ᴘɪꜰ ✨", url=f"https://t.me/PIFOTT")
+            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
         ]]
@@ -66,7 +66,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -78,7 +78,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -133,7 +133,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -145,7 +145,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -184,7 +184,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -196,7 +196,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 𝟷𝟾+ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
