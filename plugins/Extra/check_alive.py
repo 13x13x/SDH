@@ -19,7 +19,7 @@ async def ping(_, message):
     await rm.edit(f"Pong!\n{time_taken_s:.3f} ms")
 
 @Client.on_message(filters.command("PIFchannels"))
-async def PIFchannels(_, message):
+async def PIFchannels(_, message: Message):
 
     keyboard = [
         [
@@ -72,6 +72,7 @@ async def PIFchannels(_, message):
         reply_markup=reply_markup
     )
     
-    # Delete the message after 10 seconds
+    # Delete the sent message and the command message after 10 seconds
     await asyncio.sleep(10)
     await sent_message.delete()
+    await message.delete()
