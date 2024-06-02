@@ -6,7 +6,8 @@
 class script(object):
     START_TXT = """<b><i>ʜᴇ'ʟʟᴏ {}, ᴍʏ ᴍʏsᴇʟғ <a href=https://t.me/{}>{}</a>
     // ɪ ᴀᴍ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ɪ ᴄᴀɴ sʜᴀʀᴇ ᴄᴀᴍʀɪᴘ ᴀɴᴅ ᴘʀᴇᴅᴠᴅ - ᴍᴏᴠɪᴇs // ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ 🪄
-         ʜᴅ ᴍᴏᴠɪᴇs // sᴇʀɪᴇs  >> <a herf=t.me/PIFSearchRobot>ʙᴏᴛ ʟɪɴᴋ 🍁</a></i></b>"""
+    
+         ʜᴅ ᴍᴏᴠɪᴇs // sᴇʀɪᴇs  >> <a herf="t.me/PIFSearchRobot">ʙᴏᴛ ʟɪɴᴋ 🍁</a></i></b>"""
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
