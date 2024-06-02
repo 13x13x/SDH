@@ -42,7 +42,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -66,7 +66,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -78,7 +78,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -133,7 +133,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -145,7 +145,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -184,7 +184,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
@@ -196,7 +196,7 @@ async def start(client, message):
             InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
-            InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
+            InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
             InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
