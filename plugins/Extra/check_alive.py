@@ -73,6 +73,6 @@ async def PIFchannels(_, message: Message):
     )
     
     # Delete the sent message and the command message after 10 seconds
-    await asyncio.sleep(10)
+    await asyncio.sleep(30)
     await sent_message.delete()
     await message.delete()
