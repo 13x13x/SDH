@@ -164,13 +164,13 @@ async def next_page(bot, query):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -182,13 +182,13 @@ async def next_page(bot, query):
         ])
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -404,13 +404,13 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -423,13 +423,13 @@ async def filter_episodes_cb_handler(client: Client, query: CallbackQuery):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -573,13 +573,13 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -592,13 +592,13 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -777,13 +777,13 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -2718,13 +2718,13 @@ async def auto_filter(client, msg, spoll=False):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
@@ -2737,13 +2737,13 @@ async def auto_filter(client, msg, spoll=False):
         
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'⓷ ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
-                InlineKeyboardButton("⓸ ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
+                InlineKeyboardButton(f'🎭 ǫᴜᴀʟɪᴛʏs', callback_data=f"qualities#{key}"),
+                InlineKeyboardButton("🍁 ᴇᴘɪsᴏᴅᴇs", callback_data=f"episodes#{key}")
             ]
         )
         btn.insert(0, [
-            InlineKeyboardButton("⓵ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
-            InlineKeyboardButton("⓶ sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("🧞‍♀️ sᴇᴀsᴏɴs",  callback_data=f"seasons#{key}"),
+            InlineKeyboardButton("🚀 sᴇɴᴅ ᴀʟʟ", callback_data=f"sendfiles#{key}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("♨  ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  ♨", url=f"t.me/PanindiaFilmZ")
