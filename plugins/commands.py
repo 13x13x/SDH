@@ -604,28 +604,29 @@ async def start(client, message):
                 InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="<b>You are not verified !\nKindly verify to continue !</b>",
-                protect_content=True,
-                reply_markup=InlineKeyboardMarkup(btn)
-            )
-            return
-    if STREAM_MODE == True:
-        button = [
-    [
-        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
-        InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
-    ],
-    [
-        InlineKeyboardButton('🚀 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')
+        text="<b>You are not verified!\nKindly verify to continue!</b>",
+        protect_content=True,
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    return
+
+if STREAM_MODE:
+    button = [
+        [
+            InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url='t.me/PIFSearchRobot?start'),
+            InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+        ],
+        [
+            InlineKeyboardButton('🚀 ғᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ 🖥️', callback_data=f'generate_stream_link:{file_id}')
+        ]
     ]
-                ]
-            else:
-                button = [
-    [
-        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
-        InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+else:
+    button = [
+        [
+            InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url='t.me/PIFSearchRobot?start'),
+            InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+        ]
     ]
-                ]
     msg = await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
