@@ -269,7 +269,7 @@ async def start(client, message):
                 if STREAM_MODE == True:
                     button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url='t.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url='t.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
@@ -280,7 +280,7 @@ async def start(client, message):
                 else:
                     button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ]
     ]
@@ -465,7 +465,7 @@ async def start(client, message):
             if STREAM_MODE == True:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
@@ -475,7 +475,7 @@ async def start(client, message):
             else:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ]
                 ]
@@ -539,7 +539,7 @@ async def start(client, message):
             if STREAM_MODE == True:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
@@ -549,7 +549,7 @@ async def start(client, message):
             else:
                 button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ]
                 ]
@@ -612,7 +612,7 @@ async def start(client, message):
     if STREAM_MODE == True:
         button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ],
     [
@@ -622,7 +622,7 @@ async def start(client, message):
     else:
         button = [
     [
-        InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url=f't.me/panindiafilmz_bot?start'),
+        InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url=f't.me/PIFSearchRobot?start'),
         InlineKeyboardButton('uᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
     ]
     ]
