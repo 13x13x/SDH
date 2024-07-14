@@ -681,21 +681,19 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                     if f_caption is None:
                         f_caption = f"{title}"
                     await bot.send_cached_media(
-                        chat_id=userid,
-                        file_id=file.file_id,
-                        caption=f_caption,
-                        protect_content=True if ident == "filep" else False,
-                        reply_markup=InlineKeyboardMarkup(
-                            [
-                                [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                            ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorrio")
-                                ]
-                            ]
-                        )
-                    )
+    chat_id=userid,
+    file_id=file.file_id,
+    caption=f_caption,
+    protect_content=True if ident == "filep" else False,
+    reply_markup=InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
+                InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url="https://t.me/panindiafilmz_bot?start")
+            ]
+        ]
+    )
+)
     except UserIsBlocked:
         await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
     except PeerIdInvalid:
