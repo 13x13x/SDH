@@ -689,7 +689,7 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
         [
             [
                 InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
-                InlineKeyboardButton('ᴛʜᴇᴀᴛʀᴇ ᴘʀɪɴᴛs', url="https://t.me/panindiafilmz_bot?start")
+                InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url="t.me/PIFSearchRobot?start")
             ]
         ]
     )
