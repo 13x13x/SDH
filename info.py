@@ -127,7 +127,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://PIFBots.Online/")
+URL = environ.get("URL", "http://PIFbots.online:22/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
