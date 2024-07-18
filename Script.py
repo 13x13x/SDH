@@ -4,7 +4,7 @@
 
 
 class script(object):
-    START_TXT = """<b><blockquote><i>ʜᴇʟʟᴏ {}, 🍁</i></blockquote></b>
+    START_TXT = """<b><i>ʜᴇʟʟᴏ {}, 🍁</i></b>
 <b><i>// ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀғᴜʟ ғɪʟᴛᴇʀ ɪ ᴄᴀɴ sʜᴀʀᴇ ᴄᴀᴍʀɪᴘ ᴀɴᴅ ᴘʀᴇᴅᴠᴅ - ᴍᴏᴠɪᴇs // ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ 🪄</i></b>\n\n<b><i>ʜᴅʀɪᴘs ᴍᴏᴠɪᴇs // sᴇʀɪᴇs >> <a href="https://t.me/PIFSearchRobot">ʙᴏᴛ ʟɪɴᴋ 🍁</a></i></b>"""
     
     HELP_TXT = """<b>Hᴇʏ {}
