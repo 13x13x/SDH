@@ -1909,7 +1909,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
         ]]
         else:
             buttons = [[
@@ -1921,7 +1921,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+37-TDCcQqltlOTRl")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
