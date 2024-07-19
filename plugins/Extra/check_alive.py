@@ -45,7 +45,7 @@ async def PIFchannels(_, message: Message):
             InlineKeyboardButton("🥵 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🙈", url="https://t.me/Pakkinte_Anty_Bitlu")
         ],
         [
-            InlineKeyboardButton("⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧", url="https://t.me/+37-TDCcQqltlOTRl")
+            InlineKeyboardButton("⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧", url="https://t.me/+GxSe4Hhgk2IzMTg1")
         ]
     ]
 
@@ -73,6 +73,6 @@ async def PIFchannels(_, message: Message):
     )
     
     # Delete the sent message and the command message after 10 seconds
-    await asyncio.sleep(30)
+    await asyncio.sleep(1100)
     await sent_message.delete()
     await message.delete()
