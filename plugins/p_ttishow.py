@@ -93,7 +93,7 @@ async def leave_a_chat(bot, message):
         chat = chat
     try:
         buttons = [[
-            InlineKeyboardButton('Support Group',url="https://t.me/Telugu_Movies_999"),
+            InlineKeyboardButton('Support Group',url="https://t.me/PanindiaFilmZ"),
             InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/PIFAdminBot")
         ],[
             InlineKeyboardButton('Use Me Here', url=f'https://t.me/{SUPPORT_CHAT}')
@@ -166,7 +166,7 @@ async def re_enable_chat(bot, message):
     await message.reply("Chat Successfully re-enabled")
 
 
-@Client.on_message(filters.command('stats') & filters.incoming)
+@Client.on_message(filters.command('statss') & filters.incoming)
 async def get_ststs(bot, message):
     rju = await message.reply('Fetching stats..')
     total_users = await db.total_users_count()
