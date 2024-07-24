@@ -688,12 +688,15 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
     reply_markup=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
-                InlineKeyboardButton('ʜᴅ ᴍᴏᴠɪᴇs', url="t.me/PIFSearchRobot?start")
+                InlineKeyboardButton('ʜᴅʀɪᴘ ᴍᴏᴠɪᴇs', url="t.me/PIFSearchRobot?start"),
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
+            ],
+            [
+                InlineKeyboardButton('sʜᴀʀᴇ ᴛʜɪs ʙᴏᴛ 🍁', url='https://t.me/share/url?url=https://telegram.me/Panindiafilmz_bot&text=%0Aᴛᴇʟᴜɢᴜ%20|%20ᴛᴀᴍɪʟ%20|%20ʜɪɴᴅɪ%20|%20ᴍᴀʟᴀʏᴀʟᴀᴍ%20|%20ᴋᴀɴɴᴀᴅᴀ%0A%0A%20%20%20%20%20ɪ%20ᴀᴍ%20ᴘᴏᴡᴇʀғᴜʟ%20ғɪʟᴛᴇʀ%20💥%20ɪ%20ᴄᴀɴ%20sʜᴀʀᴇ%20ᴄᴀᴍʀɪᴘ%20ᴀɴᴅ%20ᴘʀᴇᴅᴠᴅ%20-%20ᴍᴏᴠɪᴇs%20ᴡɪᴛʜᴏᴜᴛ%20ᴀɴʏ%20ᴀᴅs...')
             ]
         ]
     )
-)
+                )
     except UserIsBlocked:
         await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
     except PeerIdInvalid:
