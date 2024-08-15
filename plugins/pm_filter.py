@@ -1909,7 +1909,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🔞 ᴏɴʟʏ ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
         else:
             buttons = [[
@@ -1921,7 +1921,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛꜱ 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -2999,7 +2999,7 @@ async def advantage_spell_chok(client, msg):
         if not movies:
             reqst_gle = mv_rqst.replace(" ", "+")
             button = [[
-                       InlineKeyboardButton("Gᴏᴏɢʟᴇ", url=f"https://www.google.com/search?q={reqst_gle}")
+                       InlineKeyboardButton("ɢᴏᴏɢʟᴇ 📂", url=f"https://www.google.com/search?q={reqst_gle}")
             ]]
             if NO_RESULTS_MSG:
                 await client.send_message(chat_id=LOG_CHANNEL, text=(script.NORSLTS.format(reqstr.id, reqstr.mention, mv_rqst)))
