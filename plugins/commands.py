@@ -45,7 +45,7 @@ async def start(client, message):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -69,7 +69,7 @@ async def start(client, message):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
         else:
             buttons = [[
@@ -81,7 +81,7 @@ async def start(client, message):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
@@ -120,7 +120,7 @@ async def start(client, message):
         await client.send_photo(
             chat_id=message.from_user.id,
             photo="https://telegra.ph/file/20b4aaaddb8aba646e53c.jpg",
-            caption="**You are not in our channel given below so you don't get the movie file...\n\nIf you want the movie file, click on the '🍿ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ🍿' button below and join our back-up channel, then click on the '🔄 Try Again' button below...\n\nThen you will get the movie files...**",
+            caption="**You Are Not In Our Channel Given Below So You Don't Get The Movie File...\n\nIf You Want The Movie File, Click On The '⭐ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ⭐' Button Below And Join Our Back-up Channel, Then Click On The '🔄 Try Again' Button Below...\n\nThen You Will Get The Movie Files...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -136,7 +136,7 @@ async def start(client, message):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
         else:
             buttons = [[
@@ -148,7 +148,7 @@ async def start(client, message):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
@@ -187,7 +187,7 @@ async def start(client, message):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
             else:
                 buttons = [[
@@ -199,7 +199,7 @@ async def start(client, message):
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
             InlineKeyboardButton("⚙ ᴘɪꜰ ᴏᴛᴛ ✨", url=f"https://t.me/PIFOTT")
             ],[
-            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+GxSe4Hhgk2IzMTg1")
+            InlineKeyboardButton('⪦ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ ⪧', url=f"https://t.me/+6vIlJT5eHY8xNDA9")
         ]]
             reply_markup = InlineKeyboardMarkup(buttons)
             m=await message.reply_sticker("CAACAgUAAxkBAAEKVaxlCWGs1Ri6ti45xliLiUeweCnu4AACBAADwSQxMYnlHW4Ls8gQMAQ") 
