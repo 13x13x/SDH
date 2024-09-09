@@ -102,25 +102,20 @@ async def start(client, message):
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
         btn = [
-    [
-        InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 𝟷 ❆", url=f"https://t.me/addlist/q6Rlhoyd9r80NTg1"),
-        InlineKeyboardButton("❆ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ 𝟸 ❆", url=invite_link.invite_link)
-    ],
-    [
-        InlineKeyboardButton('🤔 Why Iam Join🤔', callback_data='sinfo')
-    ]
-            ]
+    [InlineKeyboardButton("🔐 Join Channel", url=f"https://t.me/addlist/q6Rlhoyd9r80NTg1")],
+    [InlineKeyboardButton("🔐 Join Channel", url=invite_link.invite_link)]
+        ]
 
         if message.command[1] != "subscribe":
             try:
                 kk, file_id = message.command[1].split("_", 1)
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", callback_data=f"checksub#{kk}#{file_id}")])
+                btn.append([InlineKeyboardButton("🔄 Try Again", callback_data=f"checksub#{kk}#{file_id}")])
             except (IndexError, ValueError):
-                btn.append([InlineKeyboardButton("↻ Tʀʏ Aɢᴀɪɴ", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
+                btn.append([InlineKeyboardButton("🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://telegra.ph/file/20b4aaaddb8aba646e53c.jpg",
-            caption="**You Are Not In Our Channel Given Below So You Don't Get The Movie File...\n\nIf You Want The Movie File, Click On The '⭐ Jᴏɪɴ Oᴜʀ Cʜᴀɴɴᴇʟ ⭐' Button Below And Join Our Back-up Channel, Then Click On The '🔄 Try Again' Button Below...\n\nThen You Will Get The Movie Files...**",
+            photo="https://envs.sh/bVX.jpg",
+            caption="**🛡️ Join Our Updates Channels, Nxt Click On '🔄 Try Again' Button Below..**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
