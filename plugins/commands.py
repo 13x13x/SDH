@@ -115,7 +115,7 @@ async def start(client, message):
         await client.send_photo(
             chat_id=message.from_user.id,
             photo="https://envs.sh/bVX.jpg",
-            caption="**🛡️ Join Our Updates Channels, Nxt Click On '🔄 Try Again' Button Below..**",
+            caption="**🛡️ Join Our Updates Channels to Use Bot, Nxt Click On '🔄 Try Again' Button Below..**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
