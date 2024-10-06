@@ -102,8 +102,7 @@ async def start(client, message):
             logger.error("Make sure Bot is admin in Forcesub channel")
             return
         btn = [
-    [InlineKeyboardButton("🔐 Join Channel", url=f"https://t.me/addlist/q6Rlhoyd9r80NTg1")],
-    [InlineKeyboardButton("🔐 Join Channel", url=invite_link.invite_link)]
+    [InlineKeyboardButton("🔐 Join Updates Channel", url=invite_link.invite_link)]
         ]
 
         if message.command[1] != "subscribe":
@@ -114,8 +113,8 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://envs.sh/bVX.jpg",
-            caption="**🛡️ Join Our Updates Channels to Use Bot, Nxt Click On '🔄 Try Again' Button Below..**",
+            photo="https://telegra.ph/file/9f7710cee91d85ed26546.jpg",
+            caption="**☀️ Join Our Updates Channel to Use Bot**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
