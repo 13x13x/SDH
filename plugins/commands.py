@@ -39,7 +39,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficialz"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
@@ -63,7 +63,7 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficialz"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
@@ -75,7 +75,7 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficialz"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
@@ -113,8 +113,8 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_photo(
             chat_id=message.from_user.id,
-            photo="https://telegra.ph/file/9f7710cee91d85ed26546.jpg",
-            caption="**☀️ Join Our Updates Channel to Use Bot**",
+            photo="https://envs.sh/n9A.jpg",
+            caption="**🤖 Join Our Updates Channel to Use Bot**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -124,7 +124,7 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficialz"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
@@ -136,7 +136,7 @@ async def start(client, message):
             buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficialz"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
@@ -175,7 +175,7 @@ async def start(client, message):
                 buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficialz"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
@@ -187,7 +187,7 @@ async def start(client, message):
                 buttons = [[
             InlineKeyboardButton("➕️ ↖️ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ↗️ ➕", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficials"), 
+            InlineKeyboardButton("🧞‍♀️ ᴅᴀᴛᴀʙᴀsᴇ 🔎", url=f"https://t.me/PIFOficialz"), 
             InlineKeyboardButton("🔔 ᴜᴘᴅᴀᴛᴇs 🤖", url=f"https://t.me/PanindiaFilmZ")
             ],[      
             InlineKeyboardButton("🔞 ᴀᴅᴜʟᴛs 🦾", url=f"https://t.me/Pakkinte_Anty_Bitlu"),
