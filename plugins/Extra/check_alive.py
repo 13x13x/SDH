@@ -24,7 +24,7 @@ async def ping(_, message):
     time_taken_s = (end_t - start_t) * 1000
     await rm.edit(f"Pong!\n{time_taken_s:.3f} ms")
 
-@app.on_message(filters.text & filters.regex(r'https?://[^\s]+'))
+@bot.on_message(filters.text & filters.regex(r'https?://[^\s]+'))
 async def link_handler(client, message):
     if message.text.startswith(tuple(CMD)):
         return
