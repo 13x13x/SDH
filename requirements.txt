@@ -11,6 +11,7 @@ shortzy
 datetime 
 pytz 
 aiohttp
+instaloader
 
 #---master---# 
 #Telethroid==0.0.10 
