@@ -29,16 +29,24 @@ async def ig_link_handler(client, message):
     if message.text.startswith(tuple(CMD)):
         return
     
-    url = message.text.split(" ", 1)[-1].strip()  # Get URL after "/IG"
+    url = message.text.split(" ", 1)[-1].strip()  # Extract URL after "/IG"
     if not url:
         await message.reply_text("Please provide a valid Instagram URL after the command.")
         return
-
+    
     chat_id = message.chat.id
     loading_message = await message.reply_text("⚡")
 
     try:
-        shortcode = url.split("/")[-2]
+        # Extract shortcode from the URL
+        url_parts = url.split("/")
+        shortcode = url_parts[-2] if len(url_parts) > 2 else None
+        
+        if not shortcode:
+            await loading_message.delete()
+            await message.reply_text("Invalid Instagram URL provided.")
+            return
+        
         post = instaloader.Post.from_shortcode(loader.context, shortcode)
         media_urls = []
         captions = post.caption or " "
@@ -60,6 +68,7 @@ async def ig_link_handler(client, message):
 
         await loading_message.delete()
         
-    except Exception:
+    except Exception as e:
         await loading_message.delete()
+        print(f"Error: {e}")  # Debugging output
         await message.reply_text("**Try Again Later**")
